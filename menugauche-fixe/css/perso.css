@@ -1,0 +1,42 @@
+.row {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 100%;
+  *zoom: 1; }
+  
+.haute{height: 150px;}
+
+.container-navgauche {
+	z-index: 1;
+	position: fixed;
+	width: 300px;
+    max-width: 300px;
+/*     min-width: 25%; */
+	}	
+
+.navgauche {
+	background-color: rgb(200,200,200);
+	height: 2500px;
+}
+
+.container-contenu {
+	margin-left: 300px;
+    position: absolute;
+/*     width: 75%; */
+    height: 3000px;
+    background-color: rgb(235,235,235);
+	}
+
+@media only screen and (max-width: 768px) {
+.container-contenu {
+/* 	background-color: fuchsia; */
+	margin-left: 0px;
+    position: absolute;
+    width: 100%;
+    height: 3000px;
+    background-color: rgb(245,245,245);
+	}
+}
